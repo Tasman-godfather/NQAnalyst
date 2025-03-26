@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赛博创造纳斯达克分析 - 技术指标分析</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">赛博创造纳斯达克分析</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="market-overview.html">市场概况</a></li>
+                    <li><a href="trend-analysis.html">趋势分析</a></li>
+                    <li><a href="technical-indicators.html">技术指标</a></li>
+                    <li><a href="news-analysis.html">新闻分析</a></li>
+                    <li><a href="trading-recommendations.html">交易建议</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>技术指标分析</h1>
+        
+        <div class="toc">
+            <h2>目录</h2>
+            <ul>
+                <li><a href="#moving-averages">移动平均线分析</a></li>
+                <li><a href="#rsi">RSI分析</a></li>
+                <li><a href="#macd">MACD分析</a></li>
+                <li><a href="#volume">成交量分析</a></li>
+                <li><a href="#summary">综合技术指标分析</a></li>
+            </ul>
+        </div>
+        
+        <section id="moving-averages" class="card">
+            <h2>移动平均线分析</h2>
+            
+            <p>移动平均线是判断市场趋势的重要工具。从短期来看，当前收盘价(20473.75)高于5日、10日和20日均线，形成了短期上升趋势。从中期和长期来看，当前价格低于50日和100日均线，表明中长期趋势仍处于下行通道中。</p>
+            
+            <div class="chart-container">
+                <img src="images/short_term_ma.png" alt="短期移动平均线">
+                <p class="chart-caption">短期移动平均线分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/medium_term_ma.png" alt="中期移动平均线">
+                <p class="chart-caption">中期移动平均线分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/long_term_ma.png" alt="长期移动平均线">
+                <p class="chart-caption">长期移动平均线分析</p>
+            </div>
+            
+            <p>短期均线趋势为上升，中期和长期均线趋势均为下降，这种均线排列通常表明市场可能处于反弹阶段，但尚未确认长期趋势的逆转。</p>
+            
+            <div class="highlight">
+                <h3>移动平均线关键数据</h3>
+                <ul>
+                    <li>当前收盘价: 20473.75点</li>
+                    <li>5日均线: 20093.16点</li>
+                    <li>10日均线: 19850.21点</li>
+                    <li>20日均线: 20017.44点</li>
+                    <li>50日均线: 21017.17点</li>
+                    <li>100日均线: 21106.38点</li>
+                    <li>短期均线趋势: 上升</li>
+                    <li>中期均线趋势: 下降</li>
+                    <li>长期均线趋势: 下降</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="rsi" class="card">
+            <h2>RSI分析</h2>
+            
+            <p>相对强弱指标(RSI)是衡量市场超买或超卖状态的重要工具。当前短期、中期和长期的RSI(14)值均为54.72，处于中性区域，既不超买也不超卖。RSI(21)值分别为44.37(短期)和44.70(中长期)，同样处于中性区域。</p>
+            
+            <div class="chart-container">
+                <img src="images/short_term_rsi.png" alt="短期RSI">
+                <p class="chart-caption">短期RSI分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/medium_term_rsi.png" alt="中期RSI">
+                <p class="chart-caption">中期RSI分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/long_term_rsi.png" alt="长期RSI">
+                <p class="chart-caption">长期RSI分析</p>
+            </div>
+            
+            <p>这种RSI水平表明市场目前处于相对平衡状态，没有明显的超买或超卖信号，投资者可以关注其他技术指标来辅助判断市场方向。</p>
+            
+            <div class="highlight">
+                <h3>RSI关键数据</h3>
+                <ul>
+                    <li>短期RSI(14): 54.72</li>
+                    <li>短期RSI(21): 44.37</li>
+                    <li>中期RSI(14): 54.72</li>
+                    <li>中期RSI(21): 44.70</li>
+                    <li>长期RSI(14): 54.72</li>
+                    <li>长期RSI(21): 44.70</li>
+                    <li>RSI状态: 中性</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="macd" class="card">
+            <h2>MACD分析</h2>
+            
+            <p>MACD是判断市场动量和趋势转变的重要指标。当前短期MACD线(-187.12)高于信号线(-308.12)，柱状图为正值(121.00)且呈扩大趋势，形成了强烈的看涨信号。中期和长期MACD同样显示出强烈的看涨信号，柱状图分别为138.89和136.33。</p>
+            
+            <div class="chart-container">
+                <img src="images/short_term_macd.png" alt="短期MACD">
+                <p class="chart-caption">短期MACD分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/medium_term_macd.png" alt="中期MACD">
+                <p class="chart-caption">中期MACD分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/long_term_macd.png" alt="长期MACD">
+                <p class="chart-caption">长期MACD分析</p>
+            </div>
+            
+            <p>这种MACD排列通常预示着市场动能正在增强，价格可能会继续上涨。然而，考虑到中长期均线仍处于下降趋势，投资者应该谨慎对待这一信号，并结合其他指标进行综合判断。</p>
+            
+            <div class="highlight">
+                <h3>MACD关键数据</h3>
+                <ul>
+                    <li>短期MACD线: -187.12</li>
+                    <li>短期信号线: -308.12</li>
+                    <li>短期柱状图: 121.00</li>
+                    <li>中期MACD线: -280.42</li>
+                    <li>中期信号线: -419.31</li>
+                    <li>中期柱状图: 138.89</li>
+                    <li>长期MACD线: -274.92</li>
+                    <li>长期信号线: -411.24</li>
+                    <li>长期柱状图: 136.33</li>
+                    <li>MACD状态: 强烈看涨</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="volume" class="card">
+            <h2>成交量分析</h2>
+            
+            <p>成交量是判断价格变动可信度的重要指标。短期成交量呈下降趋势，最近5天平均成交量(371691.80)低于前5天(531897.80)，表明短期上涨动能可能减弱。中期成交量呈上升趋势，最近20天平均成交量(633905.25)高于前20天(572618.10)，表明中期市场参与度有所提高。</p>
+            
+            <div class="chart-container">
+                <img src="images/short_term_volume.png" alt="短期成交量">
+                <p class="chart-caption">短期成交量分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/medium_term_volume.png" alt="中期成交量">
+                <p class="chart-caption">中期成交量分析</p>
+            </div>
+            
+            <div class="chart-container">
+                <img src="images/long_term_volume.png" alt="长期成交量">
+                <p class="chart-caption">长期成交量分析</p>
+            </div>
+            
+            <p>成交量与价格的相关性在短期为正(0.14)，中长期为负(分别为-0.17和-0.12)，这种不一致性表明市场可能处于转折阶段，投资者应该密切关注成交量的变化。</p>
+            
+            <div class="highlight">
+                <h3>成交量关键数据</h3>
+                <ul>
+                    <li>最近5天平均成交量: 371691.80</li>
+                    <li>前5天平均成交量: 531897.80</li>
+                    <li>最近20天平均成交量: 633905.25</li>
+                    <li>前20天平均成交量: 572618.10</li>
+                    <li>短期成交量趋势: 下降</li>
+                    <li>中期成交量趋势: 上升</li>
+                    <li>短期成交量与价格相关性: 0.14</li>
+                    <li>中期成交量与价格相关性: -0.17</li>
+                    <li>长期成交量与价格相关性: -0.12</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="summary" class="card">
+            <h2>综合技术指标分析</h2>
+            
+            <p>综合各项技术指标，短期信号偏向看涨，中期和长期信号偏向中性。短期内，上升的移动平均线和强烈看涨的MACD信号支持价格继续上涨，但下降的成交量可能会限制上涨空间。中长期内，下降的移动平均线和强烈看涨的MACD信号形成了矛盾，表明市场可能处于反弹阶段，但尚未确认长期趋势的逆转。</p>
+            
+            <div class="highlight">
+                <h3>短期技术指标综合分析</h3>
+                <ul>
+                    <li>移动平均线: 上升</li>
+                    <li>RSI: 中性</li>
+                    <li>MACD: 强烈看涨</li>
+                    <li>成交量: 下降</li>
+                    <li>短期综合信号: <span class="tag">看涨</span></li>
+                </ul>
+            </div>
+            
+            <div class="highlight">
+                <h3>中期技术指标综合分析</h3>
+                <ul>
+                    <li>移动平均线: 下降</li>
+                    <li>RSI: 中性</li>
+                    <li>MACD: 强烈看涨</li>
+                    <li>成交量: 上升</li>
+                    <li>中期综合信号: <span class="tag">中性</span></li>
+                </ul>
+            </div>
+            
+            <div class="highlight">
+                <h3>长期技术指标综合分析</h3>
+                <ul>
+                    <li>移动平均线: 下降</li>
+                    <li>RSI: 中性</li>
+                    <li>MACD: 强烈看涨</li>
+                    <li>长期综合信号: <span class="tag">中性</span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于我们</h3>
+                    <p>赛博创造是一个人工智能技术驱动的赛博产品创造平台，赛博创造分析提供专业的金融市场分析和交易建议，帮助投资者做出明智的投资决策。可联系作者微信号414194762按期订阅服务。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="report.html">完整报告</a></li>
+                        <li><a href="trading-recommendations.html">交易建议</a></li>
+                        <li><a href="risk-warnings.html">风险提示</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>免责声明</h3>
+                    <p>本报告仅供参考，不构成投资建议。投资者应根据自身风险偏好和投资目标，结合市场实际情况，制定适合自己的交易策略。</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 赛博创造分析. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
